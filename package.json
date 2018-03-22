@@ -1,31 +1,24 @@
 {
   "name": "ginit",
   "version": "1.0.0",
-  "description": "\"git init\" on steroids",
+  "description": "example of Node.js CLI command line tool to drive API communication",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "Git",
-    "CLI"
-  ],
-  "author": "Lukas White <hello@lukaswhite.com>, Michael Wanyoike <micwanyoike@gmail.com>",
+  "author": "",
   "license": "ISC",
-  "bin": {
-    "ginit": "./index.js"
-  },
   "dependencies": {
-    "@octokit/rest": "^14.0.5",
-    "chalk": "^2.3.0",
-    "clear": "0.0.1",
+    "@octokit/rest": "^15.2.5",
+    "chalk": "^2.3.2",
+    "clear": "^0.1.0",
     "clui": "^0.3.6",
     "configstore": "^3.1.1",
     "figlet": "^1.2.0",
-    "inquirer": "^5.0.1",
-    "lodash": "^4.17.4",
+    "inquirer": "^5.1.0",
+    "lodash": "^4.17.5",
     "minimist": "^1.2.0",
-    "simple-git": "^1.89.0",
+    "simple-git": "^1.92.0",
     "touch": "^3.1.0"
   }
 }
